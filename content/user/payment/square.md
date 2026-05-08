@@ -109,7 +109,14 @@ If you get an error from Square (in particular, "The provided OAuth access token
 ## Square Authorized Representative 
 If you're a Zen Cart contractor (or your business has a contractor who manages your cart), adding an authorized representative to your Square account means you will no longer need to coordinate to handle 2FA prompts.
 
-To add an authorized representative to Square, sign in to your Square Dashboard at https://app.squareup.com/dashboard/, go to Settings > Account & Settings > My Business > Security, and select Assign authorized representative to add a new or existing team member.  Note that a specific email address can only be used for one representative account (if you are a developer with multiple clients, you will need to use email aliases or multiple email addresses). 
+To add an authorized representative to Square, [sign in to your Square Dashboard](https://app.squareup.com/dashboard/), go to Settings > Account & Settings > My Business > Security, and select Assign authorized representative to add a new or existing team member.  Note that a specific email address can only be used for one representative account (if you are a developer with multiple clients, you will need to use email aliases or multiple email addresses). 
+
+In order to allow your developer 
+to [change the API version](/user/payment/square_api_version/) - something that needs to be done each time you upgrade Square WebPay - **you will need to give them Full permission level when you create their representative account.**
+
+You can change your developer's permission on [the Square Dashboard](https://app.squareup.com/dashboard/) by clicking "Staff" on the left hand sidebar, then clicking the name of the developer in the Team members list, then clicking "Edit Permissions" on the right hand sidebar.
+
+![Square Permissions](/images/square_permissions.png)
 
 ## Apple Pay
 
